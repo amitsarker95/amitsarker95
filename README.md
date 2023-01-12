@@ -1,131 +1,51 @@
-<!--header-->
-<table>
-  <tr><td colspan="2"><a href="/README.md#-plugins">← Back to plugins index</a></td></tr>
-  <tr><th colspan="2"><h3>👨‍💻 Lines of code changed</h3></th></tr>
-  <tr><td colspan="2" align="center"><p>This plugin displays the number of lines of code added and removed across repositories.</p>
-</td></tr>
-  <tr><th>⚠️ Disclaimer</th><td><p>This plugin is not affiliated, associated, authorized, endorsed by, or in any way officially connected with <a href="https://github.com">GitHub</a>.
-All product and company names are trademarks™ or registered® trademarks of their respective holders.</p>
-</td></tr>
-  <tr>
-    <th rowspan="3">Supported features<br><sub><a href="metadata.yml">→ Full specification</a></sub></th>
-    <td><a href="/source/templates/classic/README.md"><code>📗 Classic template</code></a> <a href="/source/templates/repository/README.md"><code>📘 Repository template</code></a> <a href="/source/templates/terminal/README.md"><code>📙 Terminal template</code></a></td>
-  </tr>
-  <tr>
-    <td><code>👤 Users</code> <code>👥 Organizations</code> <code>📓 Repositories</code></td>
-  </tr>
-  <tr>
-    <td><code>🔑 (scopeless)</code> <code>read:org (optional)</code> <code>read:user (optional)</code> <code>read:packages (optional)</code> <code>repo (optional)</code></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center">
-      <details open><summary>Repositories and diff history</summary><img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.history.svg" alt=""></img></details>
-      <details><summary>Compact display in base plugin</summary><img src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.svg" alt=""></img></details>
-      <img width="900" height="1" alt="">
-    </td>
-  </tr>
-</table>
-<!--/header-->
+<h1 align="center">Hi 👋, I'm AMIT SARKER</h1>
+<h3 align="center">A simple amorous coder from Bangladesh</h3>
 
-## ➡️ Available options
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=amitsarker95&label=Profile%20views&color=0e75b6&style=flat" alt="amitsarker95" /> </p>
 
-<!--options-->
-<table>
-  <tr>
-    <td align="center" nowrap="nowrap">Option</i></td><td align="center" nowrap="nowrap">Description</td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><h4><code>plugin_lines</code></h4></td>
-    <td rowspan="2"><p>Enable lines plugin</p>
-<img width="900" height="1" alt=""></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>boolean</code>
-<br>
-<b>default:</b> no<br></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><h4><code>plugin_lines_skipped</code></h4></td>
-    <td rowspan="2"><p>Skipped repositories</p>
-<img width="900" height="1" alt=""></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap">⏩ Inherits <code>repositories_skipped</code><br>
-<b>type:</b> <code>array</code>
-<i>(newline-separated)</i>
-<br></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><h4><code>plugin_lines_sections</code></h4></td>
-    <td rowspan="2"><p>Displayed sections</p>
-<ul>
-<li><code>base</code> will display the total lines added and removed in <code>base.repositories</code> section</li>
-<li><code>repositories</code> will display repositories with the most lines added and removed</li>
-<li><code>history</code> will display a graph displaying lines added and removed over time</li>
-</ul>
-<blockquote>
-<p>ℹ️ <code>base</code> requires at least <a href="/source/plugins/base/README.md#base"><code>base: repositories</code></a> to be set</p>
-</blockquote>
-<img width="900" height="1" alt=""></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>array</code>
-<i>(comma-separated)</i>
-<br>
-<b>default:</b> base<br>
-<b>allowed values:</b><ul><li>base</li><li>repositories</li><li>history</li></ul></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><h4><code>plugin_lines_repositories_limit</code></h4></td>
-    <td rowspan="2"><p>Display limit</p>
-<img width="900" height="1" alt=""></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
-<i>(0 ≤
-𝑥)</i>
-<br>
-<b>default:</b> 4<br></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><h4><code>plugin_lines_history_limit</code></h4></td>
-    <td rowspan="2"><p>Years to display</p>
-<p>Will display the last <code>n</code> years, relative to current year</p>
-<img width="900" height="1" alt=""></td>
-  </tr>
-  <tr>
-    <td nowrap="nowrap"><b>type:</b> <code>number</code>
-<br>
-<b>zero behaviour:</b> disable</br>
-<b>default:</b> 1<br></td>
-  </tr>
-</table>
-<!--/options-->
+<p align="left"> <a href="https://twitter.com/@amit76644802" target="blank"><img src="https://img.shields.io/twitter/follow/@amit76644802?logo=twitter&style=for-the-badge" alt="@amit76644802" /></a> </p>
 
-## ℹ️ Examples workflows
+- 💬 Ask me about some language **Python , C , C++ , Javascript , Dart**
 
-<!--examples-->
-```yaml
-name: Compact display in base plugin
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.lines.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: repositories
-  plugin_lines: yes
+- 📫 How to reach me **amitsarker95@gmail.com**
 
-```
-```yaml
-name: Repositories and diff history
-uses: lowlighter/metrics@latest
-with:
-  filename: metrics.plugin.lines.history.svg
-  token: ${{ secrets.METRICS_TOKEN }}
-  base: ""
-  plugin_lines: yes
-  plugin_lines_sections: repositories, history
-  plugin_lines_repositories_limit: 2
-  plugin_lines_history_limit: 1
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://twitter.com/@amit76644802" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="@amit76644802" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/amit-sarker-b01a37216" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amit-sarker-b01a37216" height="30" width="40" /></a>
+<a href="https://fb.com/profile.php?id=100007713468276" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="profile.php?id=100007713468276" height="30" width="40" /></a>
+<a href="https://instagram.com/a_mit____" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="a_mit____" height="30" width="40" /></a>
+<a href="https://dribbble.com/amit_sarker_11" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/dribbble.svg" alt="amit_sarker_11" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/amitsarker95" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="amitsarker95" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/amitsarker95" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="amitsarker95" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/amit95" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="amit95" height="30" width="40" /></a>
+<a href="https://www.leetcode.com/amitsarker95" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="amitsarker95" height="30" width="40" /></a>
+<a href="https://discord.gg/#1609" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="#1609" height="30" width="40" /></a>
+</p>
 
-```
-<!--/examples-->
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://dart.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=amitsarker95&show_icons=true&locale=en&layout=compact" alt="amitsarker95" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=amitsarker95&show_icons=true&locale=en" alt="amitsarker95" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=amitsarker95&" alt="amitsarker95" /></p>
+
+<tr>
+    <th><a href="source/plugins/stargazers/README.md">✨ Stargazers</a></th>
+    <th><a href="source/plugins/lines/README.md">👨‍💻 Lines of code changed</a></th>
+  </tr>
+  <tr>
+        <td  align="center">
+        <details open><summary>Classic charts</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stargazers.svg" alt=""></img></details>
+        <details><summary>Chartist charts</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stargazers.chartist.svg" alt=""></img></details>
+        <details open><summary>Worldmap</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.stargazers.worldmap.svg" alt=""></img></details>
+        <img width="900" height="1" alt="">
+      </td>
+        <td  align="center">
+        <details open><summary>Repositories and diff history</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.history.svg" alt=""></img></details>
+        <details><summary>Compact display in base plugin</summary><img alt="" width="400" src="https://github.com/lowlighter/metrics/blob/examples/metrics.plugin.lines.svg" alt=""></img></details>
+        <img width="900" height="1" alt="">
+      </td>
+  </tr>
