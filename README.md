@@ -1,11 +1,11 @@
 <h1 align="center">Hi 👋, I'm AMIT SARKER</h1>
-<h3 align="center">A simple amorous coder from Bangladesh</h3>
+<h3 align="center">A dedicated coder from Bangladesh</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=amitsarker95&label=Profile%20views&color=0e75b6&style=flat" alt="amitsarker95" /> </p>
 
 <p align="left"> <a href="https://twitter.com/@amit76644802" target="blank"><img src="https://img.shields.io/twitter/follow/amit76644802?logo=twitter&style=for-the-badge" alt="@amit76644802" /></a> </p>
 
-- 💬 Ask me about some language **Python , C , C++ , Javascript , Dart**
+- 💬You Can Ask me about **Python , C , C++ , Javascript , Dart**
 
 - 📫 How to reach me **amitsarker95@gmail.com**
 
